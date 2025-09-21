@@ -24,13 +24,13 @@ void demostracionAutomatica()
 
     // Constructores
     cout << "\n1. CONSTRUCTORES:\n";
-    Racional r1;                    // Constructor por defecto
-    Racional r2(5);                 // Constructor con entero
+    //Racional r1;                    // Constructor por defecto
+    //Racional r2(5);                 // Constructor con entero
     Racional r3(3, 4);              // Constructor completo
     Racional r4(-6, 8);             // Se simplifica a -3/4
 
-    cout << "r1 (defecto): " << r1 << "\n";
-    cout << "r2 (entero 5): " << r2 << "\n";
+    //cout << "r1 (defecto): " << r1 << "\n";
+    //cout << "r2 (entero 5): " << r2 << "\n";
     cout << "r3 (3/4): " << r3 << "\n";
     cout << "r4 (-6/8 simplificado): " << r4 << "\n";
 
@@ -60,7 +60,7 @@ void demostracionAutomatica()
     cout << "d++ = " << (d++) << "\n";
     cout << "d actual = " << d << "\n";
     cout << "--d = " << (--d) << "\n";
-    cout << "d-- = " << (d--) << "\n";
+    //cout << "d-- = " << (d--) << "\n";
     cout << "d final = " << d << "\n";
 /*
     // Operadores relacionales

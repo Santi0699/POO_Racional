@@ -2,7 +2,7 @@
 
 Racional::Racional(int num, int den) : numerador(num), denominador(den) {}
 
-Racional::Racional(int n, int d)
+/*Racional::Racional(int n, int d)
 {
 
 }
@@ -21,7 +21,7 @@ Racional::~Racional()
 {
 
 }
-
+*/
 ostream& operator<<(ostream& os, const Racional& r)
 {
     os<<r.numerador<<"/"<<r.denominador;
@@ -85,8 +85,9 @@ Racional Racional::operator++(int)
     return temp;
 }
 
-Racional Racional::operator--(int) {
-    Racional temp(*this);
-    numerador += denominador;
-    return temp;
+Racional& Racional::operator--() {
+    //Racional temp(*this);
+    numerador -= denominador;
+    return *this;
 }
+
